@@ -1,8 +1,8 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import routerRender from '../services/routerRender';
+import routerRender from '../routerRender';
 import { FavoritePokemons } from '../components';
-import pokemons from '../services/dataFavoritePokemons';
+import pokemons from '../dataFavoritePokemons';
 
 describe('Teste o componente <FavoritePokemons.js />', () => {
   it('Teste se é exibido a mensagem No favorite pokemon found',

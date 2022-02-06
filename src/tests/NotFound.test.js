@@ -1,6 +1,6 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import routerRender from '../services/routerRender';
+import routerRender from '../routerRender';
 import App from '../App';
 
 describe('Teste o componente <NotFound.js />', () => {

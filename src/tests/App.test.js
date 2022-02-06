@@ -6,7 +6,7 @@ import { screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 
 // Imports Files
-import routerRender from '../services/routerRender';
+import routerRender from '../routerRender';
 import App from '../App';
 
 describe('Testando o componente <App.js />', () => {

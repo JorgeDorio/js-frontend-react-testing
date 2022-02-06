@@ -5,7 +5,7 @@ import React from 'react';
 import { screen } from '@testing-library/react';
 
 // Imports Files
-import routerRender from '../services/routerRender';
+import routerRender from '../routerRender';
 import { About } from '../components';
 
 describe('Teste o componente <About.js />', () => {
